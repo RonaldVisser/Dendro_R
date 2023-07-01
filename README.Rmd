@@ -1,5 +1,7 @@
 ---
+output: github_document
 bibliography: references.bib
+csl: journal-of-computer-applications-in-archaeology.csl
 ---
 
 # Dendro_R

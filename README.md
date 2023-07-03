@@ -5,36 +5,55 @@ A small repository that lists R packages used in dendrochronology or
 tree-ring research. This overview might not be complete, and if you miss
 anything, please add these or contact me.
 
+If you want to start with R, there are several options:
+
+- [OpenDendro](https://opendendro.org/) is a great resource for those
+  who want to learn about dplR or dplPy. There are some wonderful
+  tutorials.
+
+- [Software Carpentry](https://software-carpentry.org/lessons/) is for
+  teaching basic lab skills for research computing and is good for
+  beginners.
+
+- [Data carpentry](https://datacarpentry.org/lessons/) helps you to gain
+  foundational skills needed to work effectively and reproducibly with
+  data and code.
+
+- [R for Data Science (2e)](https://r4ds.hadley.nz/) is an extensive and
+  accessible book on general R and doing data science using R.
+
+- [CTV-Archaeology](https://github.com/benmarwick/ctv-archaeology) is a
+  more general list maintained by Ben Marwick on possibilities and
+  libraries in R, mostly aimed at Archaeology.
+
 <table style="width:100%;">
 <colgroup>
 <col style="width: 1%" />
-<col style="width: 84%" />
+<col style="width: 82%" />
+<col style="width: 8%" />
 <col style="width: 7%" />
-<col style="width: 5%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Package name</th>
-<th>Description</th>
-<th>Links</th>
-<th>Github</th>
-</tr>
-</thead>
 <tbody>
 <tr class="odd">
+<td><h1 id="package-name">Package name</h1></td>
+<td><h1 id="description">Description</h1></td>
+<td><h1 id="links">Links</h1></td>
+<td><h1 id="github">Github</h1></td>
+</tr>
+<tr class="even">
 <td>dfoliatR</td>
 <td>Tools to identify, quantify, analyze, and visualize growth
 suppression events in tree rings that are often produced by insect
 defoliation <span class="citation"
 data-cites="guiterman2020">(Guiterman, Lynch and Axelson
 2020)</span></td>
-<td><a
-href="https://cran.r-project.org/web/packages/dfoliatR/index.html"
-class="uri">https://cran.r-project.org/web/packages/dfoliatR/index.html</a></td>
-<td><a href="https://chguiterman.github.io/dfoliatR/"
-class="uri">https://chguiterman.github.io/dfoliatR/</a></td>
+<td><p><a
+href="https://cran.r-project.org/web/packages/dfoliatR/index.html">CRAN</a></p>
+<p><a
+href="%3Chttps://chguiterman.github.io/dfoliatR/">Website</a></p></td>
+<td><a href="https://github.com/chguiterman/dfoliatR/">Github</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>dendroTools</td>
 <td>Provides novel dendroclimatological methods, primarily used by the
 Tree-ring research community. There are four core functions. The first
@@ -48,12 +67,11 @@ nonlinear regression algorithms on the task of climate reconstruction.
 <span class="citation" data-cites="jevsenak2018">(Jevšenak and Levanič
 2018)</span></td>
 <td><a
-href="https://cran.r-project.org/web/packages/dendroTools/index.html"
-class="uri">https://cran.r-project.org/web/packages/dendroTools/index.html</a></td>
+href="https://cran.r-project.org/web/packages/dendroTools/index.html">CRAN</a></td>
 <td><a href="https://github.com/jernejjevsenak/dendroTools"
-class="uri">https://github.com/jernejjevsenak/dendroTools</a></td>
+class="uri">GitHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>detrendeR</td>
 <td>A Graphical User Interface (GUI) to import, save, detrend and
 perform standard tree-ring analyses. The interactive detrending allows
@@ -62,24 +80,23 @@ and change it when needed. <span class="citation"
 data-cites="campelo2012">(Campelo, García-González and Nabais
 2012)</span></td>
 <td><a
-href="https://cran.r-project.org/web/packages/detrendeR/index.html"
-class="uri">https://cran.r-project.org/web/packages/detrendeR/index.html</a></td>
-<td><a href="https://github.com/cran/detrendeR"
-class="uri">https://github.com/cran/detrendeR</a> (read only)</td>
+href="https://cran.r-project.org/web/packages/detrendeR/index.html">CRAN</a></td>
+<td><a href="https://github.com/cran/detrendeR" class="uri">GitHub</a>
+(read only)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>dplR</td>
 <td>General package for tree-ring analyses. It is possible to perform
 tree-ring analyses such as detrending, chronology building, and cross
 dating. The sotware reads and writes standard file formats used in
 dendrochronology. <span class="citation"
 data-cites="bunn2008 bunn2010">(Bunn 2008; Bunn 2010)</span></td>
-<td><a href="https://cran.r-project.org/web/packages/dplR/index.html"
-class="uri">https://cran.r-project.org/web/packages/dplR/index.html</a></td>
+<td><a
+href="https://cran.r-project.org/web/packages/dplR/index.html">CRAN</a></td>
 <td><a href="https://github.com/AndyBunn/dplR"
-class="uri">https://github.com/AndyBunn/dplR</a></td>
+class="uri">GItHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>fellingdateR</td>
 <td>This R-package offers a set of functions that can assist you to
 infer felling date estimates from dated tree-ring series. The presence
@@ -91,9 +108,9 @@ probability densities’ commonly applied to sets of radiocarbon
 (<sup>14</sup>C) dates.</td>
 <td></td>
 <td><a href="https://github.com/hanecakr/fellingDateR"
-class="uri">https://github.com/hanecakr/fellingDateR</a></td>
+class="uri">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>measuRing</td>
 <td>Identification of ring borders on scanned image sections from
 dendrochronological samples. Processing of image reflectances to produce
@@ -108,11 +125,10 @@ values. Most of the in-package routines can be recursively implemented
 using the multiDetect() function. <span class="citation"
 data-cites="lara2015">(Lara, Bravo and Sierra 2015)</span></td>
 <td><a
-href="https://cran.r-project.org/web/packages/measuRing/index.html"
-class="uri">https://cran.r-project.org/web/packages/measuRing/index.html</a></td>
+href="https://cran.r-project.org/web/packages/measuRing/index.html">CRAN</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>MtreeRing</td>
 <td><p>A Shiny Application for Automatic Measurements of Tree-Ring
 Widths on Digital Images</p>
@@ -125,12 +141,11 @@ Shiny-based application, allowing R beginners to easily analyze tree
 ring images and export ring-width series in standard file formats. <span
 class="citation" data-cites="shi2019">(Shi et al. 2019)</span></p></td>
 <td><a
-href="https://cran.r-project.org/web/packages/MtreeRing/index.html"
-class="uri">https://cran.r-project.org/web/packages/MtreeRing/index.html</a></td>
+href="https://cran.r-project.org/web/packages/MtreeRing/index.html">CRAN</a></td>
 <td><a href="https://github.com/ropensci/MtreeRing/"
-class="uri">https://github.com/ropensci/MtreeRing/</a></td>
+class="uri">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>pointRes</td>
 <td>Functions to calculate and plot event and pointer years as well as
 resilience indices. Designed for dendroecological applications, but also
@@ -139,34 +154,33 @@ class="citation"
 data-cites="vandermaaten-theunissen2015">(Maaten-Theunissen, Maaten and
 Bouriaud 2015)</span></td>
 <td><a
-href="https://cran.r-project.org/web/packages/pointRes/index.html"
-class="uri">https://cran.r-project.org/web/packages/pointRes/index.html</a></td>
-<td><a href="https://github.com/cran/pointRes"
-class="uri">https://github.com/cran/pointRes</a> (read only)</td>
+href="https://cran.r-project.org/web/packages/pointRes/index.html">CRAN</a></td>
+<td><a href="https://github.com/cran/pointRes" class="uri">GitHub</a>
+(read only)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>RingdateR</td>
 <td>RingdateR is a graphical and statistical tool for crossdating
 annually resolved time series such as tree rings or mollusc, coral and
 otolith growth increments. <span class="citation"
 data-cites="reynolds2021">(Reynolds, Edge and Black 2021)</span></td>
-<td><a href="https://ringdater.github.io/ringdater/index.html"
-class="uri">https://ringdater.github.io/ringdater/index.html</a></td>
+<td><a
+href="https://ringdater.github.io/ringdater/index.html">Website</a></td>
 <td><a href="https://github.com/ringdater/ringdater_pkg"
-class="uri">https://github.com/ringdater/ringdater_pkg</a></td>
+class="uri">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>TRADER</td>
 <td>Tree Ring Analysis of Disturbance Events in R (TRADER) package
 provides only one way for disturbance reconstruction from tree-ring
 data. <span class="citation" data-cites="altman2014">(Altman et al.
 2014)</span></td>
-<td><a href="https://cran.r-project.org/web/packages/TRADER/index.html"
-class="uri">https://cran.r-project.org/web/packages/TRADER/index.html</a></td>
+<td><a
+href="https://cran.r-project.org/web/packages/TRADER/index.html">CRAN</a></td>
 <td><a href="https://github.com/pavel-fibich/TRADER"
-class="uri">https://github.com/pavel-fibich/TRADER</a></td>
+class="uri">GitHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>xRing</td>
 <td>Identify and Measure Tree Rings on X-Ray Micro-Density Profiles.
 This package contains functions to identify tree-ring borders based on
@@ -174,10 +188,10 @@ X-ray micro-density profiles and a Graphical User Interface (GUI) to
 visualize density profiles and correct tree-ring borders. <span
 class="citation" data-cites="campelo2019">(Campelo, Mayer and Grabner
 2019)</span></td>
-<td><a href="https://cran.r-project.org/web/packages/xRing/index.html"
-class="uri">https://cran.r-project.org/web/packages/xRing/index.html</a></td>
-<td><a href="https://github.com/cran/xRing"
-class="uri">https://github.com/cran/xRing</a> (read only)</td>
+<td><a
+href="https://cran.r-project.org/web/packages/xRing/index.html">CRAN</a></td>
+<td><a href="https://github.com/cran/xRing" class="uri">GitHub</a> (read
+only)</td>
 </tr>
 </tbody>
 </table>

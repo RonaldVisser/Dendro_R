@@ -170,10 +170,8 @@ class="uri">GitHub</a></p>
 annually resolved time series such as tree rings or mollusc, coral and
 otolith growth increments. <span class="citation"
 data-cites="reynolds2021">(Reynolds, Edge and Black 2021)</span></td>
-<td><p><a
-href="https://ringdater.github.io/ringdater/index.html">Website</a></p>
-<p><a
-href="https://github.com/ringdater/ringdater_pkg/">Github</a></p></td>
+<td><a
+href="https://ringdater.github.io/ringdater/index.html">Website</a></td>
 <td><a href="https://github.com/ringdater/ringdater_pkg"
 class="uri">GitHub</a></td>
 </tr>

@@ -54,7 +54,7 @@ data-cites="guiterman2020">(Guiterman, Lynch and Axelson
 <td><p><a
 href="https://cran.r-project.org/web/packages/dfoliatR/index.html">CRAN</a></p>
 <p><a
-href="%3Chttps://chguiterman.github.io/dfoliatR/">Website</a></p></td>
+href="https://chguiterman.github.io/dfoliatR/">Website</a></p></td>
 <td><a href="https://github.com/chguiterman/dfoliatR/">Github</a></td>
 </tr>
 <tr class="odd">

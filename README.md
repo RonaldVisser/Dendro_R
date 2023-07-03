@@ -5,26 +5,30 @@ A small repository that lists R packages used in dendrochronology or
 tree-ring research. This overview might not be complete, and if you miss
 anything, please add these or contact me.
 
-If you want to start with R, there are several options:
+If you want to start with [R](https://www.r-project.org/), there are
+several options:
 
 - [OpenDendro](https://opendendro.org/) is a great resource for those
   who want to learn about dplR or dplPy. There are some wonderful
   tutorials.
-
 - [Software Carpentry](https://software-carpentry.org/lessons/) is for
   teaching basic lab skills for research computing and is good for
   beginners.
-
 - [Data carpentry](https://datacarpentry.org/lessons/) helps you to gain
   foundational skills needed to work effectively and reproducibly with
   data and code.
-
 - [R for Data Science (2e)](https://r4ds.hadley.nz/) is an extensive and
   accessible book on general R and doing data science using R.
-
 - [CTV-Archaeology](https://github.com/benmarwick/ctv-archaeology) is a
   more general list maintained by Ben Marwick on possibilities and
   libraries in R, mostly aimed at Archaeology.
+
+I would recommend working with an IDE such as
+[RStudio](https://posit.co/download/rstudio-desktop/) and always use
+[projects](https://r4ds.had.co.nz/workflow-projects.html) in your
+workflow!
+
+# List of R-packages for dendrochronology
 
 <table style="width:100%;">
 <colgroup>

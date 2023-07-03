@@ -85,8 +85,9 @@ data-cites="campelo2012">(Campelo, García-González and Nabais
 2012)</span></td>
 <td><a
 href="https://cran.r-project.org/web/packages/detrendeR/index.html">CRAN</a></td>
-<td><a href="https://github.com/cran/detrendeR" class="uri">GitHub</a>
-(read only)</td>
+<td><p><a href="https://github.com/cran/detrendeR"
+class="uri">GitHub</a></p>
+<p>(read only)</p></td>
 </tr>
 <tr class="odd">
 <td>dplR</td>
@@ -159,8 +160,9 @@ data-cites="vandermaaten-theunissen2015">(Maaten-Theunissen, Maaten and
 Bouriaud 2015)</span></td>
 <td><a
 href="https://cran.r-project.org/web/packages/pointRes/index.html">CRAN</a></td>
-<td><a href="https://github.com/cran/pointRes" class="uri">GitHub</a>
-(read only)</td>
+<td><p><a href="https://github.com/cran/pointRes"
+class="uri">GitHub</a></p>
+<p>(read only)</p></td>
 </tr>
 <tr class="even">
 <td>RingdateR</td>
@@ -194,8 +196,9 @@ class="citation" data-cites="campelo2019">(Campelo, Mayer and Grabner
 2019)</span></td>
 <td><a
 href="https://cran.r-project.org/web/packages/xRing/index.html">CRAN</a></td>
-<td><a href="https://github.com/cran/xRing" class="uri">GitHub</a> (read
-only)</td>
+<td><p><a href="https://github.com/cran/xRing"
+class="uri">GitHub</a></p>
+<p>(read only)</p></td>
 </tr>
 </tbody>
 </table>

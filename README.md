@@ -32,17 +32,18 @@ workflow!
 
 <table style="width:100%;">
 <colgroup>
-<col style="width: 1%" />
+<col style="width: 2%" />
 <col style="width: 82%" />
 <col style="width: 8%" />
 <col style="width: 7%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h1 id="package-name">Package name</h1></td>
-<td><h1 id="description">Description</h1></td>
-<td><h1 id="links">Links</h1></td>
-<td><h1 id="github">Github</h1></td>
+<td><h2 id="package-name">Package name</h2></td>
+<td><h2 id="description1">Description<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></h2></td>
+<td><h2 id="links">Links</h2></td>
+<td><h2 id="github">Github</h2></td>
 </tr>
 <tr class="even">
 <td>dfoliatR</td>
@@ -187,6 +188,17 @@ href="https://cran.r-project.org/web/packages/TRADER/index.html">CRAN</a></td>
 class="uri">GitHub</a></td>
 </tr>
 <tr class="even">
+<td>WIAD</td>
+<td>wiad: Wood Image Analysis and Dataset provides a user-friendly
+interface to digitize wood imagery such as tree ring scans. The package
+offers a web-based application that the user can run locally from their
+computers to analyze wood characteristics. <span class="citation"
+data-cites="rademacher">(Rademacher et al. n.d.)</span></td>
+<td><a
+href="https://cran.r-project.org/web/packages/wiad/index.html">CRAN</a></td>
+<td><a href="https://github.com/bnasr/wiad/">GitHub</a></td>
+</tr>
+<tr class="odd">
 <td>xRing</td>
 <td>Identify and Measure Tree Rings on X-Ray Micro-Density Profiles.
 This package contains functions to identify tree-ring borders based on
@@ -202,6 +214,15 @@ class="uri">GitHub</a></p>
 </tr>
 </tbody>
 </table>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>All descriptions were copied from the website or CRAN
+archive and edited where needed.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 
 # References
 
@@ -284,6 +305,17 @@ Maaten-Theunissen, M van der, Maaten, E van der and Bouriaud, O. 2015
 pointRes: An r package to analyze pointer years and components of
 resilience. *Dendrochronologia* 35: 34–38. DOI:
 https://doi.org/[10.1016/j.dendro.2015.05.006](https://doi.org/10.1016/j.dendro.2015.05.006).
+
+</div>
+
+<div id="ref-rademacher" class="csl-entry">
+
+Rademacher, T, Seyednasrollah, B, Basler, D, Cheng, J, Mandra, T,
+Miller, E, Lin, Z, Orwig, DA, Pederson, N, Pfister, H, Wei, D, Yao, L
+and Richardson, AD. n.d. The Wood Image Analysis and Dataset (WIAD):
+Open-access visual analysis tools to advance the ecological data
+revolution. *Methods in Ecology and Evolution* n/a(n/a): DOI:
+https://doi.org/[10.1111/2041-210X.13717](https://doi.org/10.1111/2041-210X.13717).
 
 </div>
 

@@ -9,7 +9,7 @@ If you want to start with [R](https://www.r-project.org/), there are
 several options:
 
 - [OpenDendro](https://opendendro.org/) is a great resource for those
-  who want to learn about dplR or dplPy. There are some wonderful
+  who want to learn about dplR (or dplPy). There are some wonderful
   tutorials.
 - [Software Carpentry](https://software-carpentry.org/lessons/) is for
   teaching basic lab skills for research computing and is good for
@@ -177,6 +177,15 @@ href="https://ringdater.github.io/ringdater/index.html">Website</a></td>
 class="uri">GitHub</a></td>
 </tr>
 <tr class="odd">
+<td>SapwoodModel</td>
+<td>This software package fits a model to sapwood data from scots pine
+(Pinus sylvestris L.) using heartwood data and tree ring width using a
+nonlinear model. Three models are implemented <span class="citation"
+data-cites="edvardsson2022">(Edvardsson et al. 2022)</span>.</td>
+<td><a href="https://kar26.shinyapps.io/SapwoodModel/">Shiny</a></td>
+<td><a href="https://github.com/karirogg/SapwoodModel">Github</a></td>
+</tr>
+<tr class="even">
 <td>TRADER</td>
 <td>Tree Ring Analysis of Disturbance Events in R (TRADER) package
 provides only one way for disturbance reconstruction from tree-ring
@@ -187,7 +196,7 @@ href="https://cran.r-project.org/web/packages/TRADER/index.html">CRAN</a></td>
 <td><a href="https://github.com/pavel-fibich/TRADER"
 class="uri">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>WIAD</td>
 <td>wiad: Wood Image Analysis and Dataset provides a user-friendly
 interface to digitize wood imagery such as tree ring scans. The package
@@ -198,7 +207,7 @@ data-cites="rademacher">(Rademacher et al. n.d.)</span></td>
 href="https://cran.r-project.org/web/packages/wiad/index.html">CRAN</a></td>
 <td><a href="https://github.com/bnasr/wiad/">GitHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>xRing</td>
 <td>Identify and Measure Tree Rings on X-Ray Micro-Density Profiles.
 This package contains functions to identify tree-ring borders based on
@@ -223,6 +232,11 @@ archive and edited where needed.<a href="#fnref1" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
+
+# Acknowledgments
+
+I would like to thank Johannes Edvardsson and Kristof Haneca for their
+valuable comments and suggestions of things to add.
 
 # References
 
@@ -269,6 +283,16 @@ Campelo, F, Mayer, K and Grabner, M. 2019 xRingAn R package to identify
 and measure tree-ring features using X-ray microdensity profiles.
 *Dendrochronologia* 53: 17–21. DOI:
 https://doi.org/[10.1016/j.dendro.2018.11.002](https://doi.org/10.1016/j.dendro.2018.11.002).
+
+</div>
+
+<div id="ref-edvardsson2022" class="csl-entry">
+
+Edvardsson, J, Rögnvaldsson, K, Helgadóttir, EÞ, Linderson, H and
+Hrafnkelsson, B. 2022 A statistical model for the prediction of the
+number of sapwood rings in Scots pine (Pinus sylvestris L.).
+*Dendrochronologia* 74: 125963. DOI:
+https://doi.org/[10.1016/j.dendro.2022.125963](https://doi.org/10.1016/j.dendro.2022.125963).
 
 </div>
 

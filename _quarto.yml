@@ -28,7 +28,7 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Dendrochronology and R
+        text: R-packages for dendrochronology
       - href: about.qmd
         text: About this website
 

@@ -12,36 +12,30 @@ website:
     right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; CC-By-NC Ronald Visser, 2024"
 
-  sidebar:
-    pinned: true
-    align: center
-    tools:
-      - icon: github
-        href: https://github.com/RonaldVisser/Dendro_R
-        text: "Github repository for this website"
-      - icon: mastodon
-        href: https://akademienl.social/@RonaldVisser
-        text: "Mastodon"
-
-    style: "docked"
+  navbar:
+    background: primary
     search: true
-    collapse-level: 1
-    contents:
+    left:
       - href: index.qmd
         text: R-packages for dendrochronology
       - href: about.qmd
         text: About this website
-
-
-
+    right:
+      - icon: github
+        menu:
+          - text: Source code
+            url: https://github.com/RonaldVisser/Dendro_R
+          - text: Report a Bug
+            url: https://github.com/RonaldVisser/Dendro_R/issues
+      - icon: mastodon
+        href: https://akademienl.social/@RonaldVisser
 
 format:
   html:
-    theme:
-      light: [theme]
+    theme: spacelab
     code-copy: true
     code-overflow: wrap
-    toc: true
+    toc: false
 
 
 filters:

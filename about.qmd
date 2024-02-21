@@ -15,6 +15,6 @@ author:
 
 ## About
 
-This website was made to share this list of R-packages for other dendrochronologists. If you feel that any package is missing, please contact me!
+This website was made to share this list of R-packages for other dendrochronologists. If you feel that any package is missing, please contact me! You can also propose a change using a [pull request in Github](https://github.com/RonaldVisser/Dendro_R/pulls).
 
 I would like to thank Johannes Edvardsson and Kristof Haneca for their valuable comments and suggestions of things to add.

@@ -17,7 +17,7 @@ editor: visual
 
 # Dendrochronology and R
 
-A small repository that lists R packages used in dendrochronology or tree-ring research. This overview might not be complete, and if you miss anything, please add these or contact me.
+A small repository that lists R packages used in dendrochronology or tree-ring research. This overview might not be complete, and if you miss anything, please add these using a [pull request in Github](https://github.com/RonaldVisser/Dendro_R/pulls) or contact me.
 
 If you want to start with [R](https://www.r-project.org/), there are several options:
 

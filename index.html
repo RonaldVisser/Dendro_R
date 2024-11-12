@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ronald Visser">
-<meta name="dcterms.date" content="2024-05-07">
+<meta name="dcterms.date" content="2024-11-12">
 
-<title>Dendrochronology and R - R-packages for dendrochronology</title>
+<title>R-packages for dendrochronology – Dendrochronology and R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,7 +132,7 @@ cookieconsent.run({
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -148,7 +148,7 @@ cookieconsent.run({
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span>
@@ -171,7 +171,7 @@ cookieconsent.run({
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -210,7 +210,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 7, 2024</p>
+      <p class="date">November 12, 2024</p>
     </div>
   </div>
   
@@ -237,7 +237,7 @@ cookieconsent.run({
 </section>
 <section id="list-of-r-packages-for-dendrochronology" class="level1">
 <h1>List of R-packages for dendrochronology</h1>
-<table class="table">
+<table class="caption-top table">
 <tbody>
 <tr class="odd">
 <td><h2 id="package-name" class="anchored" data-anchor-id="list-of-r-packages-for-dendrochronology">Package name</h2></td>
@@ -260,127 +260,135 @@ cookieconsent.run({
 <td><a href="https://github.com/ltrr-arizona-edu/burnr">GitHub</a></td>
 </tr>
 <tr class="even">
+<td>CTRing</td>
+<td>Package to convert scans with Computerized tomography (CT) into dendrochronological data using an automated method. Tree ring profiles (average ring density, earlywood and latewood density, ring width and percent latewood for each ring) are obtained <span class="citation" data-cites="mahatara2024">(<a href="#ref-mahatara2024" role="doc-biblioref">Mahatara et al. 2024</a>)</span>.</td>
+<td><a href="https://cran.r-project.org/package=CTRing">CRAN</a></td>
+<td><p><a href="https://github.com/cran/CTRing/tree/master">GitHub</a></p>
+<p>(read only)</p>
+<p><a href="https://gitlab.uqar.ca/schnro01/ctring">GitLab</a></p></td>
+</tr>
+<tr class="odd">
 <td>dfoliatR</td>
 <td>Tools to identify, quantify, analyze, and visualize growth suppression events in tree rings that are often produced by insect defoliation <span class="citation" data-cites="guiterman2020">(<a href="#ref-guiterman2020" role="doc-biblioref">Guiterman, Lynch and Axelson 2020</a>)</span>.</td>
 <td><p><a href="https://cran.r-project.org/web/packages/dfoliatR/index.html">CRAN</a></p>
 <p><a href="https://chguiterman.github.io/dfoliatR/">Website</a></p></td>
 <td><a href="https://github.com/chguiterman/dfoliatR/">Github</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>dendRoAnalyst</td>
 <td>A package to analyse (daily) statistics of dendrometer data, including the daily amplitude of tree growth. Various approaches can be applied to separate radial growth from daily cyclic shrinkage and expansion due to uptake and loss of stem water <span class="citation" data-cites="aryal2020">(<a href="#ref-aryal2020" role="doc-biblioref">Aryal et al. 2020</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/dendRoAnalyst/index.html">CRAN</a></td>
 <td><p><a href="https://github.com/cran/dendRoAnalyst">GitHub</a></p>
 <p>(read only)</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>dendroNetwork</td>
 <td>dendroNetwork is a package to create dendrochronological networks for gaining insight into provenance or other patterns based on the statistical relations between tree ring curves. The networks can be used to visualise and understand the relations between tree-ring curves <span class="citation" data-cites="visser2024">(<a href="#ref-visser2024" role="doc-biblioref">Visser 2024</a>)</span>.</td>
 <td><p><a href="https://cran.r-project.org/package=dendroNetwork">CRAN</a></p>
 <p><a href="https://docs.ropensci.org/dendroNetwork/">Website</a></p></td>
 <td><a href="https://github.com/RonaldVisser/dendroNetwork">GitHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>dendroSync</td>
 <td>Provides functions for the calculation and plotting of synchrony in tree growth from tree-ring width chronologies (TRW index). It combines variance-covariance (VCOV) mixed modelling with functions that quantify the degree to which the TRW chronologies contain a common temporal signal. It also implements temporal trends in spatial synchrony using a moving window. These methods can also be used with other kind of ecological variables that have temporal autocorrelation corrected <span class="citation" data-cites="alday2018">(<a href="#ref-alday2018" role="doc-biblioref">Alday et al. 2018</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/DendroSync/index.html">CRAN</a></td>
 <td><a href="https://github.com/cran/DendroSync">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>dendroTools</td>
 <td>Provides novel dendroclimatological methods, primarily used by the Tree-ring research community. There are four core functions. The first one is daily_response(), which finds the optimal sequence of days that are related to one or more tree-ring proxy records. Similar function is daily_response_seascorr(), which implements partial correlations in the analysis of daily response functions. For the enthusiast of monthly data, there is monthly_response() function. The last core function is compare_methods(), which effectively compares several linear and nonlinear regression algorithms on the task of climate reconstruction <span class="citation" data-cites="jevsenak2018">(<a href="#ref-jevsenak2018" role="doc-biblioref">Jevšenak and Levanič 2018</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/dendroTools/index.html">CRAN</a></td>
 <td><a href="https://github.com/jernejjevsenak/dendroTools" class="uri">GitHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>detrendeR</td>
 <td>A Graphical User Interface (GUI) to import, save, detrend and perform standard tree-ring analyses. The interactive detrending allows the user to check how well the detrending curve fits each time-series and change it when needed <span class="citation" data-cites="campelo2012">(<a href="#ref-campelo2012" role="doc-biblioref">Campelo, García-González and Nabais 2012</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/detrendeR/index.html">CRAN</a></td>
 <td><p><a href="https://github.com/cran/detrendeR" class="uri">GitHub</a></p>
 <p>(read only)</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>dplR</td>
 <td>General package for tree-ring analyses. It is possible to perform tree-ring analyses such as detrending, chronology building, and cross dating. The sotware reads and writes standard file formats used in dendrochronology <span class="citation" data-cites="bunn2008 bunn2010">(<a href="#ref-bunn2008" role="doc-biblioref">Bunn 2008</a>; <a href="#ref-bunn2010" role="doc-biblioref">Bunn 2010</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/dplR/index.html">CRAN</a></td>
 <td><a href="https://github.com/AndyBunn/dplR" class="uri">GItHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>fellingdater</td>
 <td>This R-package offers a set of functions that can assist you to infer felling date estimates from dated tree-ring series. The presence of (partially) preserved sapwood or waney edge allows to estimate a range for the actual felling date, for individual series as well as for a group of timbers. Furthermore, an additional function provides a tool to sum sapwood probability distributions, comparable to ‘summed probability densities’ commonly applied to sets of radiocarbon (<sup>14</sup>C) dates <span class="citation" data-cites="haneca2024 haneca2020">(<a href="#ref-haneca2024" role="doc-biblioref">Haneca 2024</a>; <a href="#ref-haneca2020" role="doc-biblioref">Haneca, Debonne and Hoffsummer 2020</a>)</span>.</td>
 <td><a href="https://docs.ropensci.org/fellingdater/">Website</a></td>
 <td><a href="https://github.com/ropensci/fellingdater/" class="uri">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>measuRing</td>
 <td>Identification of ring borders on scanned image sections from dendrochronological samples. Processing of image reflectances to produce gray matrices and time series of smoothed gray values. Luminance data is plotted on segmented images for users to perform both: visual identification of ring borders or control of automatic detection. Routines to visually include/exclude ring borders on the R graphical devices, or automatically detect ring borders using a linear detection algorithm. This algorithm detects ring borders according to positive/negative extreme values in the smoothed time-series of gray values. Most of the in-package routines can be recursively implemented using the multiDetect() function <span class="citation" data-cites="lara2015">(<a href="#ref-lara2015" role="doc-biblioref">Lara, Bravo and Sierra 2015</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/measuRing/index.html">CRAN</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>MtreeRing<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></td>
 <td><p>A Shiny Application for Automatic Measurements of Tree-Ring Widths on Digital Images</p>
 <p>Use morphological image processing and edge detection algorithms to automatically measure tree ring widths on digital images. Users can also manually mark tree rings on species with complex anatomical structures. The arcs of inner-rings and angles of successive inclined ring boundaries are used to correct ring-width series. The package provides a Shiny-based application, allowing R beginners to easily analyze tree ring images and export ring-width series in standard file formats <span class="citation" data-cites="shi2019">(<a href="#ref-shi2019" role="doc-biblioref">Shi et al. 2019</a>)</span>.</p></td>
 <td><a href="https://cran.r-project.org/web/packages/MtreeRing/index.html">CRAN</a></td>
 <td><a href="https://github.com/ropensci/MtreeRing/" class="uri">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>pointRes</td>
 <td>Functions to calculate and plot event and pointer years as well as resilience indices. Designed for dendroecological applications, but also suitable to analyze patterns in other ecological time series <span class="citation" data-cites="vandermaaten-theunissen2015">(<a href="#ref-vandermaaten-theunissen2015" role="doc-biblioref">Maaten-Theunissen, Maaten and Bouriaud 2015</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/pointRes/index.html">CRAN</a></td>
 <td><p><a href="https://github.com/cran/pointRes" class="uri">GitHub</a></p>
 <p>(read only)</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>RAPTOR</td>
 <td>Performs wood cell anatomical data analyses on spatially explicit xylem (tracheids) datasets derived from thin sections of woody tissue. The package includes functions for visualisation, detection and alignment of continuous tracheid radial file (defined as rows) and individual tracheid position within an annual ring of coniferous species <span class="citation" data-cites="peters2018">(<a href="#ref-peters2018" role="doc-biblioref">Peters et al. 2018</a>)</span>.</td>
 <td><a href="https://github.com/the-hull/RAPTOR">CRAN</a></td>
 <td><a href="https://github.com/the-hull/RAPTOR">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>RingdateR</td>
 <td>RingdateR is a graphical and statistical tool for crossdating annually resolved time series such as tree rings or mollusc, coral and otolith growth increments <span class="citation" data-cites="reynolds2021">(<a href="#ref-reynolds2021" role="doc-biblioref">Reynolds, Edge and Black 2021</a>)</span>.</td>
 <td><a href="https://ringdater.github.io/ringdater/index.html">Website</a></td>
 <td><a href="https://github.com/ringdater/ringdater_pkg" class="uri">GitHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>SapwoodModel</td>
 <td>This software package fits a model to sapwood data from scots pine (Pinus sylvestris L.) using heartwood data and tree ring width using a nonlinear model. Three models are implemented <span class="citation" data-cites="edvardsson2022">(<a href="#ref-edvardsson2022" role="doc-biblioref">Edvardsson et al. 2022</a>)</span>.</td>
 <td><a href="https://kar26.shinyapps.io/SapwoodModel/">Shiny</a></td>
 <td><a href="https://github.com/karirogg/SapwoodModel">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>tracheideR</td>
 <td>Contains functions to standardize tracheid profiles using the traditional method (Vaganov) and a new method to standardize tracheidograms based on the relative position of tracheids within tree rings <span class="citation" data-cites="campelo2016">(<a href="#ref-campelo2016" role="doc-biblioref">Campelo et al. 2016</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/tracheideR/index.html">CRAN</a></td>
 <td><p><a href="https://github.com/cran/tracheideR">GitHub</a></p>
 <p>(read only)</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>TRADER</td>
 <td>Tree Ring Analysis of Disturbance Events in R (TRADER) package provides only one way for disturbance reconstruction from tree-ring data <span class="citation" data-cites="altman2014">(<a href="#ref-altman2014" role="doc-biblioref">Altman et al. 2014</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/TRADER/index.html">CRAN</a></td>
 <td><a href="https://github.com/pavel-fibich/TRADER" class="uri">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>treeclim</td>
 <td>Bootstrapped response and correlation functions, seasonal correlations and evaluation of reconstruction skills for use in dendroclimatology and dendroecology <span class="citation" data-cites="zang2015">(<a href="#ref-zang2015" role="doc-biblioref">Zang and Biondi 2015</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/treeclim/index.html">CRAN</a></td>
 <td><a href="https://github.com/cszang/treeclim">GitHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ttprocessing</td>
 <td>For processing the Tree Talker data. It implements the procedures described in the TT+ manual. It allows for converting the raw data into physical quantities and calculating the sap flow from raw temperatures recorded by the probes. It provides some plotting functions and a graphical user interface <span class="citation" data-cites="kabala2022 kabala2024">(<a href="#ref-kabala2022" role="doc-biblioref">Kabala, Niccoli and Battipaglia 2022</a>; <a href="#ref-kabala2024" role="doc-biblioref">Kabala, Niccoli and Battipaglia 2024</a>)</span>.</td>
 <td></td>
 <td><a href="https://github.com/jpkabala96/ttprocessing">GitHub</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>WIAD</td>
 <td>wiad: Wood Image Analysis and Dataset provides a user-friendly interface to digitize wood imagery such as tree ring scans. The package offers a web-based application that the user can run locally from their computers to analyze wood characteristics <span class="citation" data-cites="rademacher">(<a href="#ref-rademacher" role="doc-biblioref">Rademacher et al. n.d.</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/wiad/index.html">CRAN</a></td>
 <td><a href="https://github.com/bnasr/wiad/">GitHub</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>xRing</td>
 <td>Identify and Measure Tree Rings on X-Ray Micro-Density Profiles. This package contains functions to identify tree-ring borders based on X-ray micro-density profiles and a Graphical User Interface (GUI) to visualize density profiles and correct tree-ring borders <span class="citation" data-cites="campelo2019">(<a href="#ref-campelo2019" role="doc-biblioref">Campelo, Mayer and Grabner 2019</a>)</span>.</td>
 <td><a href="https://cran.r-project.org/web/packages/xRing/index.html">CRAN</a></td>
@@ -456,6 +464,9 @@ Lara, W, Bravo, F and Sierra, CA. 2015 measuRing: An r package to measure tree-r
 <div id="ref-vandermaaten-theunissen2015" class="csl-entry" role="listitem">
 Maaten-Theunissen, M van der, Maaten, E van der and Bouriaud, O. 2015 pointRes: An r package to analyze pointer years and components of resilience. <em>Dendrochronologia</em> 35: 34–38. DOI: https://doi.org/<a href="https://doi.org/10.1016/j.dendro.2015.05.006">10.1016/j.dendro.2015.05.006</a>.
 </div>
+<div id="ref-mahatara2024" class="csl-entry" role="listitem">
+Mahatara, D, Campelo, F, Houle, L, Caron, A, Barrette, J, Francus, P and Schneider, R. 2024 CTRing: An r package to extract wood density profiles from computed tomography images of discs and logs. <em>Dendrochronologia</em> 126274. DOI: https://doi.org/<a href="https://doi.org/10.1016/j.dendro.2024.126274">10.1016/j.dendro.2024.126274</a>.
+</div>
 <div id="ref-malevich2018" class="csl-entry" role="listitem">
 Malevich, SB, Guiterman, CH and Margolis, EQ. 2018 Burnr: Fire history analysis and graphics in r. <em>Dendrochronologia</em> 49: 9–15. DOI: https://doi.org/<a href="https://doi.org/10.1016/j.dendro.2018.02.005">10.1016/j.dendro.2018.02.005</a>.
 </div>
@@ -519,18 +530,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -562,7 +562,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/ronaldvisser\.github\.io\/Dendro_R\/");
@@ -570,7 +592,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

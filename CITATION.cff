@@ -5,6 +5,6 @@ authors:
     given-names: Ronald M.
     orcid: "https://orcid.org/0000-0001-6966-1729"
 title: "Dendro_R. A repository that lists R-packages for dendrochronology"
-version: 1.0.0
-date-released: 2024-02-17
+version: 1.1.0
+date-released: 2025-05-05
 url: "https://github.com/RonaldVisser/Dendro_R"

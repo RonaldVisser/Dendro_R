@@ -14,6 +14,20 @@
     "text": "Footnotes\n\n\nAll descriptions were copied from the website or CRAN archive and edited where needed.↩︎\nThere is also ρ-MtreeRing (GitHub). This is not a R-package, but user-friendly FOSS that streamlines the entire microdensitometry analysis process through a graphical user interface based on Shiny R Software without any programming knowledge. 𝜌-MtreeRing can be personalized and developed by the microdensitometry research community(García-Hidalgo et al. 2021).↩︎"
   },
   {
+    "objectID": "shiny.html",
+    "href": "shiny.html",
+    "title": "Shiny (apps for) dendrochronology",
+    "section": "",
+    "text": "This page contains links to Shiny-apps for dendrochronology, but that are not released as a package to install. Some are also listed here: https://opendendro.org/apps."
+  },
+  {
+    "objectID": "shiny.html#footnotes",
+    "href": "shiny.html#footnotes",
+    "title": "Shiny (apps for) dendrochronology",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nDescriptions are based on the original descriptions by the author(s).↩︎"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About this website",

@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ronaldvisser.github.io/Dendro_R/about.html</loc>
-    <lastmod>2024-02-21T08:21:10.941Z</lastmod>
+    <lastmod>2025-07-24T12:29:40.936Z</lastmod>
   </url>
   <url>
     <loc>https://ronaldvisser.github.io/Dendro_R/index.html</loc>
-    <lastmod>2025-05-05T12:30:28.813Z</lastmod>
+    <lastmod>2025-07-24T12:29:42.784Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ronaldvisser.github.io/Dendro_R/shiny.html</loc>
+    <lastmod>2025-07-24T12:29:34.973Z</lastmod>
   </url>
 </urlset>

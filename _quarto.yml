@@ -19,6 +19,8 @@ website:
     left:
       - href: index.qmd
         text: R-packages for dendrochronology
+      - href: shiny.qmd
+        text: Shiny apps
       - href: about.qmd
         text: About this website
     right:

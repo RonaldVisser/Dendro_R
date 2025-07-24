@@ -4,7 +4,7 @@ format: html
 editor: visual
 date: today
 author:
-  - name: Ronald Visser
+  - name: Ronald M. Visser
     orcid: 0000-0001-6966-1729
     email: r.m.visser@saxion.nl
     affiliation: 

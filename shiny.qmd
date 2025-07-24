@@ -1,0 +1,28 @@
+---
+title: "Shiny (apps for) dendrochronology"
+format: html
+editor: visual
+date: today
+author:
+  - name: Ronald M. Visser
+    orcid: 0000-0001-6966-1729
+    email: r.m.visser@saxion.nl
+    affiliation: 
+      - name: Saxion University of Applied Sciences
+        city: Deventer
+        country: Netherlands
+---
+
+This page contains links to Shiny-apps for dendrochronology, but that are not released as a package to install. Some are also listed here: <https://opendendro.org/apps>.
+
++----------------------+--------------------------------------------------------------------------------------+----------------------------------------------------------+--------------------------------------------------+
+| ## Name of shiny app | ## Description[^1]                                                                   | ## Links                                                 | ## Github                                        |
++----------------------+--------------------------------------------------------------------------------------+----------------------------------------------------------+--------------------------------------------------+
+| iDetrend             | A Shiny app for interactively detrending tree-ring data using dplR.                  | [Website](https://viz.datascience.arizona.edu/iDetrend/) | [GitHub](https://github.com/OpenDendro/iDetrend) |
++----------------------+--------------------------------------------------------------------------------------+----------------------------------------------------------+--------------------------------------------------+
+| treeSong             | A Shiny app for converting the spectral properties of tree-ring data into audio.     |                                                          | [GitHub](https://github.com/OpenDendro/treeSong) |
++----------------------+--------------------------------------------------------------------------------------+----------------------------------------------------------+--------------------------------------------------+
+| xDateR               | A Shiny app for graphically and statistically crossdating tree-ring data using dplR. | [Website](https://viz.datascience.arizona.edu/xDateR/)   | [GitHub](https://github.com/OpenDendro/xDater)   |
++----------------------+--------------------------------------------------------------------------------------+----------------------------------------------------------+--------------------------------------------------+
+
+[^1]: Descriptions are based on the original descriptions by the author(s).

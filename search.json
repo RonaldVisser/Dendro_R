@@ -4,7 +4,7 @@
     "href": "scripts.html",
     "title": "R-scripts for dendrochronology",
     "section": "",
-    "text": "R-scripts for dendrochronology\nThis page contains a list of R-scripts used in dendrochronology.\n\n\n\nDescription\nLink\nCitation\n\n\n\n\nR script to format large sets of co-authors and affiliations\nhttps://github.com/groenendijk/coauthor_formatter\n(Groenendijk 2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\nGroenendijk, P. 2025. R script to format large sets of co-authors and affiliations. DOI: https://doi.org/10.13140/RG.2.2.34946.18885."
+    "text": "R-scripts for dendrochronology\nThis page contains a list of R-scripts used in dendrochronology. Let me know when you know a script that should be added, either be email or by a pull request in Github.\n\n\n\nDescription\nLink\nCitation\n\n\n\n\nR script to format large sets of co-authors and affiliations\nhttps://github.com/groenendijk/coauthor_formatter\n(Groenendijk 2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\nGroenendijk, P. 2025. R script to format large sets of co-authors and affiliations. DOI: https://doi.org/10.13140/RG.2.2.34946.18885."
   },
   {
     "objectID": "about.html",

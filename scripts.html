@@ -9,7 +9,7 @@
 <meta name="author" content="Ronald M. Visser">
 <meta name="dcterms.date" content="2025-10-27">
 
-<title>Shiny (apps for) dendrochronology – Dendrochronology and R</title>
+<title>R-scripts for dendrochronology – Dendrochronology and R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -127,11 +146,11 @@ cookieconsent.run({
 <span class="menu-text">R-packages for dendrochronology</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./shiny.html" aria-current="page"> 
+    <a class="nav-link" href="./shiny.html"> 
 <span class="menu-text">Shiny apps</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./scripts.html"> 
+    <a class="nav-link active" href="./scripts.html" aria-current="page"> 
 <span class="menu-text">Useful R-scripts for dendrochronology</span></a>
   </li>  
   <li class="nav-item">
@@ -179,7 +198,7 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Shiny (apps for) dendrochronology</h1>
+<h1 class="title">R-scripts for dendrochronology</h1>
 </div>
 
 
@@ -215,45 +234,48 @@ cookieconsent.run({
 </header>
 
 
-<p>This page contains links to Shiny-apps for dendrochronology, but that are not released as a package to install. Some are also listed here: <a href="https://opendendro.org/apps" class="uri">https://opendendro.org/apps</a>.</p>
+<section id="r-scripts-for-dendrochronology" class="level1">
+<h1>R-scripts for dendrochronology</h1>
+<p>This page contains a list of R-scripts used in dendrochronology.</p>
 <table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>Link</th>
+<th>Citation</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><h2 id="name-of-shiny-app" class="anchored">Name of shiny app</h2></td>
-<td><h2 id="description1" class="anchored">Description<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h2></td>
-<td><h2 id="links" class="anchored">Links</h2></td>
-<td><h2 id="github" class="anchored">Github</h2></td>
+<td>R script to format large sets of co-authors and affiliations</td>
+<td><a href="https://github.com/groenendijk/coauthor_formatter" class="uri">https://github.com/groenendijk/coauthor_formatter</a></td>
+<td><span class="citation" data-cites="groenendijk2025">(<a href="#ref-groenendijk2025" role="doc-biblioref">Groenendijk 2025</a>)</span></td>
 </tr>
 <tr class="even">
-<td>iDetrend</td>
-<td>A Shiny app for interactively detrending tree-ring data using dplR.</td>
-<td><a href="https://viz.datascience.arizona.edu/iDetrend/">Website</a></td>
-<td><a href="https://github.com/OpenDendro/iDetrend">GitHub</a></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>treeSong</td>
-<td>A Shiny app for converting the spectral properties of tree-ring data into audio.</td>
 <td></td>
-<td><a href="https://github.com/OpenDendro/treeSong">GitHub</a></td>
-</tr>
-<tr class="even">
-<td>xDateR</td>
-<td>A Shiny app for graphically and statistically crossdating tree-ring data using dplR.</td>
-<td><a href="https://viz.datascience.arizona.edu/xDateR/">Website</a></td>
-<td><a href="https://github.com/OpenDendro/xDater">GitHub</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="references" class="level1">
 
 
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</section>
 
-<ol>
-<li id="fn1"><p>Descriptions are based on the original descriptions by the author(s).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-groenendijk2025" class="csl-entry" role="listitem">
+Groenendijk, P. 2025. <em>R script to format large sets of co-authors and affiliations</em>. DOI: https://doi.org/<a href="https://doi.org/10.13140/RG.2.2.34946.18885">10.13140/RG.2.2.34946.18885</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

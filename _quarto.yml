@@ -21,6 +21,8 @@ website:
         text: R-packages for dendrochronology
       - href: shiny.qmd
         text: Shiny apps
+      - href: scripts.qmd
+        text: Useful R-scripts for dendrochronology
       - href: about.qmd
         text: About this website
     right:

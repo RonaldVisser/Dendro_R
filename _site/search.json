@@ -19,5 +19,12 @@
     "title": "Shiny (apps for) dendrochronology",
     "section": "",
     "text": "Name of shiny app\nDescription1\nLinks\nGithub\n\n\niDetrend\nA Shiny app for interactively detrending tree-ring data using dplR.\nWebsite\nGitHub\n\n\ntreeSong\nA Shiny app for converting the spectral properties of tree-ring data into audio.\n\nGitHub\n\n\nxDateR\nA Shiny app for graphically and statistically crossdating tree-ring data using dplR.\nWebsite\nGitHub\n\n\n\n\n\n\n\nFootnotes\n\n\nDescriptions are based on the original descriptions by the author(s).↩︎"
+  },
+  {
+    "objectID": "scripts.html",
+    "href": "scripts.html",
+    "title": "R-scripts for dendrochronology",
+    "section": "",
+    "text": "References\n\nGroenendijk, P. 2025. R script to format large sets of co-authors and affiliations. DOI: https://doi.org/10.13140/RG.2.2.34946.18885."
   }
 ]

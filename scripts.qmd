@@ -1,0 +1,28 @@
+---
+title: "R-scripts for dendrochronology"
+author:
+  - name: Ronald M. Visser
+    orcid: 0000-0001-6966-1729
+    email: r.m.visser@saxion.nl
+    affiliation: 
+      - name: Saxion University of Applied Sciences
+        city: Deventer
+        country: Netherlands
+date: today
+bibliography: references.bib
+csl: journal-of-computer-applications-in-archaeology.csl
+format: html
+editor: visual
+---
+
+# R-scripts for dendrochronology
+
+This page contains a list of R-scripts used in dendrochronology.
+
+| Description                                                  | Link                                                | Citation           |
+|--------------------------------------------------------------|-----------------------------------------------------|--------------------|
+| R script to format large sets of co-authors and affiliations | <https://github.com/groenendijk/coauthor_formatter> | [@groenendijk2025] |
+|                                                              |                                                     |                    |
+|                                                              |                                                     |                    |
+
+# References
